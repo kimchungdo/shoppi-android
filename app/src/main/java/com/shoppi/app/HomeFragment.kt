@@ -10,6 +10,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 import com.google.gson.Gson
 import org.json.JSONObject
 
@@ -34,7 +35,7 @@ class HomeFragment : Fragment() {
         val homeJsonString = assetLoader.getJsonString(requireContext(), "home.json")
         Log.d("homeData", homeJsonString ?: "")
 
-        if(!homeJsonString.isNullOrEmpty()){
+        if (!homeJsonString.isNullOrEmpty()) {
             val gson = Gson()
             val homeData = gson.fromJson(homeJsonString, HomeData::class.java)
             homeData.title
@@ -47,6 +48,21 @@ class HomeFragment : Fragment() {
             viewpager.adapter = HomeBannerAdapter().apply {
                 submitList(homeData.topBanners)
             }
+
+            val pageWidth = resources.getDimension(R.dimen.viewpager_item_width)
+            val pageMargin = resources.getDimension(R.dimen.viewpager_item_margin)
+            val screenWidth = resources.displayMetrics.widthPixels
+            val offset = screenWidth - pageWidth - pageMargin
+
+            viewpager.offscreenPageLimit = 3
+            viewpager.setPageTransformer { page, position ->
+                page.translationX = position * -offset
+            }
+            TabLayoutMediator(
+                viewpagerIndicator, viewpager
+            ) { tab, position ->
+
+            }.attach()
         }
 
     }
