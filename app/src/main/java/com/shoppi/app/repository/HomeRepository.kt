@@ -1,6 +1,6 @@
 package com.shoppi.app.repository
 
-import com.shoppi.app.ui.model.HomeData
+import com.shoppi.app.model.HomeData
 
 class HomeRepository(
     private val assetDataSource: HomeAssetDataSource

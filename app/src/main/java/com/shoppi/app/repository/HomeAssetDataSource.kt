@@ -2,7 +2,7 @@ package com.shoppi.app.repository
 
 import com.google.gson.Gson
 import com.shoppi.app.AssetLoader
-import com.shoppi.app.ui.model.HomeData
+import com.shoppi.app.model.HomeData
 
 class HomeAssetDataSource(private val assetLoader: AssetLoader) : HomeDataSource {
 
