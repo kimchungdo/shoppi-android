@@ -55,7 +55,7 @@
       "updated" : false
     },
     {
-      "category_id": "fancy-goods",
+      "category_id": "fancy_goods",
       "label" : "잡화",
       "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/294bc0ac-1afa-431f-a2a2-3cdb16941e7b",
       "updated" : false

@@ -1,0 +1,156 @@
+{
+  "categories" : [
+    {
+      "category_id": "fashion_female",
+      "label" : "여성패션",
+      "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/d4176dc6-6772-450b-87dd-04e45ada2937",
+      "updated" : false
+    },
+    {
+      "category_id": "fashion_male",
+      "label" : "남성패션",
+      "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/0f1772dc-a9b4-49a3-9905-ee9bfa6fcef1",
+      "updated" : false
+    },
+    {
+      "category_id": "kids",
+      "label" : "유아동",
+      "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/2d5e07cb-9be7-45b0-bdf7-8c9328147ff8",
+      "updated" : false
+    },
+    {
+      "category_id": "electronics",
+      "label" : "가전/디지털",
+      "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/1c797437-4ae4-4b4f-a8e1-2a11073925c9",
+      "updated" : false
+    },
+    {
+      "category_id": "furniture",
+      "label" : "가구/인테리어",
+      "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/c91ef8b3-344f-4342-b940-e493c7356bcd",
+      "updated" : true
+    },
+    {
+      "category_id": "sports",
+      "label" : "스포츠/레저",
+      "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/1505cdb4-2702-4fb9-ac64-977ca64ab388",
+      "updated" : false
+    },
+    {
+      "category_id": "books",
+      "label" : "도서/음반",
+      "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/6f91cbe3-612a-42f2-beb3-6449994cfef7",
+      "updated" : false
+    },
+    {
+      "category_id": "pets",
+      "label" : "반려동물",
+      "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/e3f308c8-b2f8-4d3f-b758-e625b95f1a1b",
+      "updated" : false
+    },
+    {
+      "category_id": "car",
+      "label" : "자동차",
+      "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/7f63241d-4a18-4c7f-a8c6-7be5d74d5d3d",
+      "updated" : false
+    },
+    {
+      "category_id": "fancy_goods",
+      "label" : "잡화",
+      "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/294bc0ac-1afa-431f-a2a2-3cdb16941e7b",
+      "updated" : false
+    },
+    {
+      "category_id": "food",
+      "label" : "식품",
+      "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/f260cd96-dcec-4dca-a630-3fc5e4ef0a1d",
+      "updated" : false
+    },
+    {
+      "category_id": "beauty",
+      "label" : "뷰티",
+      "thumbnail_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/7959ef88-4ee1-4c9b-b2c4-dd487c792766",
+      "updated" : true
+    }
+  ],
+  "fashion_female" : {
+    "top_selling": {
+      "title" : {
+        "text" : "인기상품"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "자켓",
+          "thumbnail_image_url" : "https://github.com/kimchungdo/shoppi-android/assets/71162232/9de3e6f3-f2f7-4456-b443-a031d2e0e9b7",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "스웨터",
+          "thumbnail_image_url" : "https://github.com/kimchungdo/shoppi-android/assets/71162232/f264e068-1aa5-43eb-b750-10fcf2cf0f97",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "캡모자",
+          "thumbnail_image_url" : "https://github.com/kimchungdo/shoppi-android/assets/71162232/5f71fd12-7847-413e-aa51-1fe56d79d68f",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "벨트",
+          "thumbnail_image_url" : "https://github.com/kimchungdo/shoppi-android/assets/71162232/87fdbd07-c8a8-4e5a-a225-923a4e6df531",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "셔츠",
+          "thumbnail_image_url" : "https://github.com/kimchungdo/shoppi-android/assets/71162232/0aeac6ff-f31d-4f9c-8d09-ca951bdf9c29",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "스커트",
+          "thumbnail_image_url" : "https://github.com/kimchungdo/shoppi-android/assets/71162232/d320be3b-e528-49d1-b936-82d23d73c120",
+          "updated": false
+        }
+      ]
+    },
+    "promotions" : {
+      "title": {
+        "text": "추천상품"
+      },
+      "items": [
+        {
+          "label" : "[19차 리오더] 페이크 레더 숏 테일러 자켓 블랙",
+          "discount_rate": 10,
+          "price" : 90000,
+          "representative_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/bee64938-c8d9-4872-9b0e-977771e10862",
+          "product_id": "jacket_1"
+        },
+        {
+          "label" : "캐시미어 100% 터틀넥 스웨터",
+          "discount_rate": 15,
+          "price" : 70000,
+          "representative_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/8c446e59-9e7f-4655-9057-f14bcd068d81",
+          "product_id": "sweater_1"
+        },
+        {
+          "label" : "반팔 스트라이프 스웨터",
+          "discount_rate": 20,
+          "price" : 30000,
+          "representative_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/fa66f7e0-0d79-4f9c-b26c-7b5a8e97ab25",
+          "product_id": "sweater_2"
+        },
+        {
+          "label" : "화이트 스포츠 점퍼",
+          "discount_rate": 20,
+          "price" : 150000,
+          "representative_image_url": "https://github.com/kimchungdo/shoppi-android/assets/71162232/027d96d6-efc9-408d-9d65-f9148dde0822",
+          "product_id": "sports_1"
+        }
+      ]
+    }
+  }
+}
