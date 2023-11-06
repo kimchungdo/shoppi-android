@@ -6,6 +6,9 @@
     <data>
 
         <variable
+            name="viewModel"
+            type="com.shoppi.app.ui.category.CategoryViewModel" />
+        <variable
             name="category"
             type="com.shoppi.app.model.Category" />
 
@@ -13,6 +16,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
 
+        android:onClick="@{()->viewModel.openCategoryDetail(category)}"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
