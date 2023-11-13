@@ -18,4 +18,6 @@
     <string name="description_product_thumbnail">상품 상세 대표 이미지</string>
     <string name="label_category_new">NEW</string>
     <string name="product_promotion_image">product promotion image</string>
+    <string name="top_selling_items">top selling items</string>
+    <string name="n">N</string>
 </resources>
