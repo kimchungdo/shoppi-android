@@ -17,4 +17,5 @@
     <string name="title_logo_icon_description">title logo icon</string>
     <string name="description_product_thumbnail">상품 상세 대표 이미지</string>
     <string name="label_category_new">NEW</string>
+    <string name="product_promotion_image">product promotion image</string>
 </resources>
